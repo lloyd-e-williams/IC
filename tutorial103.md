@@ -57,6 +57,24 @@ Verify that your configuration matches the screenshot below before clicking next
 
 Based upon your selections the wizard will take you to the next confguration screen. You will only need to complete some of the configuration items listed down the left hand side of the wizard.
 
+Since  you didn't check the box to add any request parameters, the wizard moves ahead to configuring the request which we did indicate we wanted to do when we checked the request payload box on the previous screen.
+
+Choose the radio button **JSON Sample** so you can supply a sample request format using JSON (Java Script Object Notation). Also select **JSON** as the type of payload  you want the endpoint to receive. 
+
+Click on the link called `<<<< inline >>>>` after enter sample JSON to supply a sample format.
+
+![Screen Shot 2018-03-05 at 8.33.38 AM](images/tutorial103/Screen Shot 2018-03-05 at 8.33.38 AM.png)
+
+Copy and paste the following text in the box that pops-up:
+
+{  "PersonId" : "300000157866799",  "Name" : "Lloyd"  }
+
+Then click the **OK** button.
+
+
+
+Choose **Next** to move to the next configuation item in the wizard.
+
 
 
 The percentage completion indicator should change to 100%. Click on the **Save** button.
