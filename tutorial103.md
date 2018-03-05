@@ -212,7 +212,61 @@ Then you can click on the link provided to see the metadata related to the integ
 
 ![Screen Shot 2018-03-05 at 10.13.21 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.13.21 AM.png)The integration is now ready to run. It's best to use a tool for testing REST interfaces (for example Postman or SOAP-UI) to test the interface. In this tutorial, we will use Postman which is available as a stand-alone install or a Chrome browser plug-in. 
 
-If you don't already have a tool that you are very comfortable using, you should download and install Postman from: https://www.getpostman.com/apps
+If you don't already have a tool that you are very comfortable using, you should download and install Postman from: [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
+
+In Postman, set-up a **POST** request using the Endpoint URL.
+
+*NOTE: Be sure to use your own endpoint URL, copy it from your own Endpoint Description page. It will be in a format that contains your initials in the name.*  
+
+![Screen Shot 2018-03-05 at 10.33.46 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.33.46 AM.png)
+
+Set the Authorization to **Basic Auth** and supply the username and password provided to you by your instructor. 
+
+Click on the **Body** tab in Postman.
+
+Choose the format **raw** and from the drop-down list choose the JSON (application/json) option.
+
+Copy the request sample payload and paste it in the body section. Change the `PersonId` string and the `Name` string to a different value and use your own name.
+
+![Screen Shot 2018-03-05 at 10.36.18 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.36.18 AM.png)
 
 
+
+Notice that `Authorization` and `Content-Type` Headers were generated automatically. You do not need to adjust these values. 
+
+![Screen Shot 2018-03-05 at 10.40.05 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.40.05 AM.png)
+
+Click on the **Send** button to send the request. 
+
+Since this integration is very simple, you will only see a message as a status like: `202 Accepted`without any response since we didn't configure one. 
+
+![Screen Shot 2018-03-05 at 10.42.48 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.42.48 AM.png)
+
+
+
+Ask your instructor to check and see if your file was created on the computer running the agent. 
+
+![Screen Shot 2018-03-05 at 10.30.37 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.30.37 AM.png)
+
+
+
+If it did, then you have seen how someone with the appropriate security permissions can make a call to an interface in the cloud and create a file on the local file system which was configured with the Oracle Integration Cloud (OIC) connectivity agent. 
+
+**Congratulations!** You have built your first integration using Oracle Integration Cloud in a browser using Drag-and-Drop without writing any code and you were able to integrate seemlessly between cloud and on-premise environments simply by associating an agent configuration with one of the adapter connections. 
+
+You can now save this integration on your local file system by choosing the **Export** option from the integration's menu.
+
+![Screen Shot 2018-03-05 at 10.50.26 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.50.26 AM.png)
+
+
+
+![Screen Shot 2018-03-05 at 10.57.15 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.57.15 AM.png)
+
+The resulting .iar file can be put in source control and/or imported into the QA or Production environments. You will need to configure the connection settings and user name and passwords after you import it into another environment. The security infomation (i.e. usernames and passwords) is not exported with the integration. 
+
+![Screen Shot 2018-03-05 at 10.53.45 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.53.45 AM.png)
+
+
+
+This concludes tutorial103. You now have a basic understanding of how Oracle Integration Cloud integrations are created and are ready to build more complex examples.
 
