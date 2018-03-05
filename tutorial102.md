@@ -33,20 +33,22 @@ Select the **Configure Agents** button:
 
 ![Screen Shot 2018-03-05 at 7.35.31 AM](images/tutorial102/Screen Shot 2018-03-05 at 7.35.31 AM.png)
 
+Choose the agent provided by your instructor **Lloyds Macbookpro Agent**
 
+![Screen Shot 2018-03-05 at 7.40.08 AM](images/tutorial102/Screen Shot 2018-03-05 at 7.40.08 AM.png)
 
+Make sure the agent is highlighted in blue and then click the **Use** button.
 
+![Screen Shot 2018-03-05 at 7.44.06 AM](images/tutorial102/Screen Shot 2018-03-05 at 7.44.06 AM.png)
 
-Click the **Test** button to test the connection. 
+Click the **Test** button to test the connection. If it is taking a long time and/or fails, ask your instructor to make sure that the agent is running. 
 
-
+![Screen Shot 2018-03-05 at 7.47.28 AM](images/tutorial102/Screen Shot 2018-03-05 at 7.47.28 AM.png)
 
 The percentage completion indicator should change to 100%. Click on the **Save** button.
 
-
-
 Then click the **Close** button.
 
+![Screen Shot 2018-03-05 at 7.49.34 AM](images/tutorial102/Screen Shot 2018-03-05 at 7.49.34 AM.png)
 
-
-The connection is now ready to use.
+The file connection is now ready to use.
