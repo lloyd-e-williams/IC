@@ -11,17 +11,17 @@ From the designer menu, choose **Connections**:
 
 ![Screen Shot 2018-03-05 at 12.13.12 AM](./images/tutorial101/Screen Shot 2018-03-05 at 12.13.12 AM.png)
 
-Click on the Create button to start creating a new connection:
+Click on the **Create** button to start creating a new connection:
 
 ![Screen Shot 2018-03-05 at 12.17.11 AM](./images/tutorial101/Screen Shot 2018-03-05 at 12.17.11 AM.png)
 
-Search for REST
+Type **REST** in the search box to search for the REST adapter:
 
 ![Screen Shot 2018-03-05 at 12.37.55 AM](./images/tutorial101/Screen Shot 2018-03-05 at 12.37.55 AM.png)
 
 Select the **REST** adapter.
 
-Name the connection: **Local REST <your initials>** as shown in the picture below:
+Name the connection: **`Local REST <your initials>`** as shown in the picture below:
 
 ![Screen Shot 2018-03-05 at 12.40.16 AM](./images/tutorial101/Screen Shot 2018-03-05 at 12.40.16 AM.png)
 
