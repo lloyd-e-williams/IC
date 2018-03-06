@@ -61,15 +61,17 @@ Since  you didn't check the box to add any request parameters, the wizard moves 
 
 Choose the radio button **JSON Sample** so you can supply a sample request format using JSON (Java Script Object Notation). Also select **JSON** as the type of payload  you want the endpoint to receive. 
 
-Click on the link called `<<<< inline >>>>` after enter sample JSON to supply a sample format.
+Click on the link called `<<<< inline >>>>` after enter sample JSON to supply a sample format.  
 
 ![Screen Shot 2018-03-05 at 8.33.38 AM](images/tutorial103/Screen Shot 2018-03-05 at 8.33.38 AM.png)
 
 Copy and paste the following text in the box that pops-up:
 
-{  "PersonId" : "300000157866799",  "Name" : "Lloyd"  }
+`{  "PersonId" : "300000157866799",  "Name" : "Lloyd"  }`
 
 *If you get an error message, you may need to re-type all of the quotation marks to get the correct character.*  
+
+**OR** you could download this file to your computer [person.json](./misc/person.json) and then use the **Browse** button to upload it to the cloud. 
 
 Then click the **OK** button.
 
@@ -101,7 +103,7 @@ Leave the default options:
 
 Yes - define a schema for this endpoint and 
 
-Create a new schema from a CSV file
+Create a new schema from a CSV file 
 
 ![Screen Shot 2018-03-05 at 8.51.41 AM](images/tutorial103/Screen Shot 2018-03-05 at 8.51.41 AM.png)
 
@@ -117,12 +119,14 @@ Specify a File Name Pattern: `<your initials>_Person_%SEQ%.txt`
 
 Then click the **Next** button.
 
-Create a file on your own computer that is called **PersonId.csv** with the following two lines of content. 
+Either download this sample CSV file: [PersonId.csv](./misc/PersonId.csv)
+
+OR Create a file on your own computer that is called **PersonId.csv** with the following two lines of content. 
 
 `PersonId,Name`
 `300000157866789,Lloyd`
 
-Click on the **Browse… button and choose the file that you created. 
+Click on the **Browse… button and choose the PersonId.csv on your computer. 
 
 Enter the Record Name: `Person`
 
