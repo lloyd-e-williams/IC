@@ -136,7 +136,7 @@ Enter the Recordset Name: `People`
 
 Notice that the fields PersonId and Name were populated as Mandatory and the type format String was set.  We will leave these defaults, but in the future you could change as needed. 
 
-Click the **Next** button. The wizard moves to the summary section. 
+Click the **Next** button. The configuration wizard moves to the summary section. 
 
 ![Screen Shot 2018-03-05 at 9.15.07 AM](images/tutorial103/Screen Shot 2018-03-05 at 9.15.07 AM.png)
 
