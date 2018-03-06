@@ -69,6 +69,8 @@ Copy and paste the following text in the box that pops-up:
 
 {  "PersonId" : "300000157866799",  "Name" : "Lloyd"  }
 
+*If you get an error message, you may need to re-type all of the quotation marks to get the correct character.*  
+
 Then click the **OK** button.
 
 ![Screen Shot 2018-03-05 at 8.41.20 AM](images/tutorial103/Screen Shot 2018-03-05 at 8.41.20 AM.png)
@@ -170,11 +172,13 @@ Choose **Tracking**
 
 ![Screen Shot 2018-03-05 at 9.31.10 AM](images/tutorial103/Screen Shot 2018-03-05 at 9.31.10 AM.png)
 
-Drag the `PersonId` from the left to the tracking field. 
+### Drag the `PersonId` from the left to the beginning of the first box under the **Tracking Field** column. 
+
+*You'll notice that the background of the field turns light blue when the field is ready to be dropped.*
 
 ![Screen Shot 2018-03-05 at 9.32.09 AM](images/tutorial103/Screen Shot 2018-03-05 at 9.32.09 AM.png)
 
-Drag the `Name` to the second tracking field.
+Drag the `Name` to the second row under Tracking field. Only the first field will get a green check-mark as the primary tracking field.
 
 ![Screen Shot 2018-03-05 at 9.32.17 AM](images/tutorial103/Screen Shot 2018-03-05 at 9.32.17 AM.png)
 
@@ -208,7 +212,13 @@ You will need to click on the **Refresh** icon to see if the integation has fini
 
 ![Screen Shot 2018-03-05 at 10.10.54 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.10.54 AM.png)
 
-Then you can click on the link provided to see the metadata related to the integration. A new tab should open in your browser which contains all the details about this integration including the Endpoint URL, the Swagger definition and the resource details including a sample of the request. 
+Then you can click on the link provided in the green message bar to see the metadata related to the integration. A new tab should open in your browser which contains all the details about this integration including the Endpoint URL, the Swagger definition and the resource details including a sample of the request. 
+
+If need to find the metadata link for this integration, after you have closed the green notification, you can find it using the gear icon that appears next to the activation switch. 
+
+![Screen Shot 2018-03-05 at 11.19.21 PM](images/tutorial103/Screen Shot 2018-03-05 at 11.19.21 PM.png)
+
+
 
 ![Screen Shot 2018-03-05 at 10.13.21 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.13.21 AM.png)The integration is now ready to run. It's best to use a tool for testing REST interfaces (for example Postman or SOAP-UI) to test the interface. In this tutorial, we will use Postman which is available as a stand-alone install or a Chrome browser plug-in. 
 
@@ -216,17 +226,19 @@ If you don't already have a tool that you are very comfortable using, you should
 
 In Postman, set-up a **POST** request using the Endpoint URL.
 
-*NOTE: Be sure to use your own endpoint URL, copy it from your own Endpoint Description page. It will be in a format that contains your initials in the name.*  
+*NOTE: Be sure to use your own endpoint URL from the Endpoint Description page  (don't paste into Postman the URL one that ends in /metadata, but you can use that link in your browser to find the endpoint URL).*
+
+Copy it from your own Endpoint Description page. It will be in a format that contains your initials in the name.  
 
 ![Screen Shot 2018-03-05 at 10.33.46 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.33.46 AM.png)
 
-Set the Authorization to **Basic Auth** and supply the username and password provided to you by your instructor. 
+Set the Authorization to **Basic Auth** and supply the username and password provided to you by your instructor. (e.g User01)
 
 Click on the **Body** tab in Postman.
 
-Choose the format **raw** and from the drop-down list choose the JSON (application/json) option.
+Choose the format **raw** and from the drop-down list **choose the JSON (application/json)** option (from the drop-down list next to the binary radio button).
 
-Copy the request sample payload and paste it in the body section. Change the `PersonId` string and the `Name` string to a different value and use your own name.
+Copy the request sample payload and paste it in the body section. You can optionally change the value for the`PersonId` string and the `Name` string to a different value. You should use you own name to make it easier for the instructor to find the file on the server running the connectivity agent.
 
 ![Screen Shot 2018-03-05 at 10.36.18 AM](images/tutorial103/Screen Shot 2018-03-05 at 10.36.18 AM.png)
 
